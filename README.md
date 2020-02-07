@@ -1,3 +1,3 @@
 # Стартовый шаблон
 
-# /fist/dist
+# https://diz1.github.io/glo-portfolio/
