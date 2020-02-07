@@ -1,3 +1,3 @@
 # Стартовый шаблон
 
-#/fist/dist
+# /fist/dist
