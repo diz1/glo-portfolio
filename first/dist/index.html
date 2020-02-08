@@ -176,12 +176,12 @@
     <div class="modal" id="orderModal">
         <div class="modal__content">
             <span class="modal__content-close" id="closeMod">&times;</span>
-            <form class="modal__form" action="#" id="orderForm">
+            <form class="modal__form" action="mail.php" id="orderForm" method="POST">
                 <span class="form__title">Заполните форму</span>
-                <input type="text" class="input name__input" form="orderForm" placeholder="Введите имя*" required>
-                <input type="email" class="input mail__input" form="orderForm" placeholder="Введите email*" required>
-                <input type="tel" class="input phone__input" form="orderForm" placeholder="Введите телефон*" required>
-                <input type="submit" class="input button" value="Заказать">
+                <input type="text" class="input name__input" form="orderForm" name="user_name" placeholder="Введите имя*" required>
+                <input type="email" class="input mail__input" form="orderForm" name="user_email" placeholder="Введите email*" required>
+                <input type="tel" class="input phone__input" form="orderForm" name="user_phone" placeholder="Введите телефон*" required>
+                <button type="submit" class="input button">Заказать</button>
             </form>
         </div>
     </div><script src="./assets/js/script.js"></script>

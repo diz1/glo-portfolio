@@ -637,6 +637,8 @@ a:focus {
     padding: 20px;
     border: 1px solid #888;
     width: 20%;
+    border: none;
+    border-radius: 10px;
 }
 
 .modal__content-close {
@@ -685,6 +687,7 @@ a:focus {
     font-size: 16px;
     font-weight: 500;
     padding: 15px 20px;
+    border: 1px solid #32325F;
 }
 
 .input:last-child {
