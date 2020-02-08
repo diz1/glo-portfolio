@@ -1,0 +1,38 @@
+.section__about {
+    background-color: #E4E4E4;
+}
+
+.about {
+
+    // .about__text
+
+    &__text {
+        padding-top: 91px;
+        margin-bottom: 100px;
+    }
+
+    // .about__cards
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 131px;
+    }
+}
+
+.card {
+    flex-basis: 23%;
+
+    // .card__icon
+
+    &__icon {
+        margin-bottom: 40px;
+    }
+
+    // .card__text
+    &__text {
+        font-size: 16px;
+        font-weight: 500;
+        color: #525f7f;
+    }
+}

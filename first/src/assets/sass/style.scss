@@ -1,0 +1,33 @@
+// Vars
+@import "button";
+
+
+// Helpers
+@import "helpers/reset";
+
+
+// Fonts
+@import "fonts/fonts";
+
+
+// Default Styles
+html {
+    font-family: "Helvetica Neue";
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    &:focus {
+        outline: none;
+    }
+}
+
+// Blocks
+    @import "blocks/container";
+    @import "blocks/header";
+    @import "blocks/section";
+    @import "blocks/orders";
+    @import "blocks/footer";
+    @import "blocks/modal";

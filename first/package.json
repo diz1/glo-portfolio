@@ -20,9 +20,8 @@
         "panini": "^1.6.3"
     },
     "dependencies": {
-        "bootstrap": "^4.3.1",
-        "slick-carousel": "^1.8.1",
-        "autoprefixer": "^7.0.0"
+        "autoprefixer": "^7.0.0",
+        "slick-carousel": "^1.8.1"
     },
     "browserslist": [
         "last 8 versions"

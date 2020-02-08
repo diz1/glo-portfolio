@@ -1,0 +1,40 @@
+.footer {
+    padding-top: 79px;
+    background-color: #32325F;
+    // .footer__items
+
+    &__items {
+        display: flex;
+    }
+}
+
+.footer__item {
+    margin-right: 130px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+    color: #ffffff;
+    // .footer__item_title
+
+    &_title {
+        font-size: 24px;
+        font-weight: 700px;
+        margin-bottom: 36px;
+    }
+
+    // .footer__item_description
+
+    &_description {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 104px;
+    }
+
+    // .footer__item__link
+
+    &__link {
+        display: block;
+        color: #ffffff;
+    }
+}

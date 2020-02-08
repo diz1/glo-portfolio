@@ -1,0 +1,30 @@
+.button {
+    user-select: none;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+
+    padding: 23px 32px;
+    background-color: #32325F;
+    border-radius: 6px;
+    outline: none;
+
+    margin-right: 30px;
+    &:last-child {
+        margin: 0;
+    }
+
+    // .button__order
+
+    &__order {
+        background-color: #2DCE89;
+    }
+
+    // .button__demo
+
+    &__demo {
+        background-color: #5E72E4;
+    }
+}
